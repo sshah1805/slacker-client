@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+  height : 100%;
+  margin : 0px;
+}
+
+.main-section {
+  margin-top : 2rem;
+}
+
+.logo .img-fluid {
+  width : 90%;
+  border-radius:8%;
+  display: block; 
+  margin : 1rem auto 1rem auto;
+}
+
+h1 {
+  color : #0000ff;
+  text-align : left;
+  font-size : 40pt;
+}
+
+h2 {
+  color : #0000ff;
+  text-align : left;
+  font-size : 25pt;
+}
+
+h3 {
+  text-align : left;
+  font-size : 16pt;
+}
+
+div.banner {
+  float : right;
+  display: inline-block;
+  width: 50%;
+  padding :2rem;
+}
+
+div.logo {
+  float : left;
+  display: inline-block;
+  width: 50%;
+  padding:1rem;
+}
+
+p {
+  text-align : left;
+  font-size : 20pt;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .logo .img-fluid {
+    width : 60%;
+    display: block; 
+    margin : 1rem auto 1rem auto;
+  }
+
+  div.banner {
+    display: inline-block;
+    width: 100%;
+    padding :0rem 2rem 2rem 20%;
+  }
+  
+  div.logo {
+    float : none;
+    display: inline-block;
+    width: 100%;
+    padding:1rem;
+  }			
+  
+  h1 {
+    color : #0000ff;
+    margin : 5pt;
+    font-size : 30pt;
+  }
+
+  h2 {
+    color : #0000ff;
+    margin : 3pt;
+    font-size : 10pt;
+  }
+  
+  h3 {
+    text-align : left;
+    font-size : 9pt;
+  }
+  
+  p {
+    display : inline-block;
+    margin : 3pt;
+    font-size : 10pt;
+  }
+}
